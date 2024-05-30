@@ -13,6 +13,6 @@ export const navlinks=[
     },
     {
         title:"تواصل معنا",
-        path:"contact-us"
+        path:"contact"
     },
 ]

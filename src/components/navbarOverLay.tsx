@@ -3,7 +3,7 @@ import { navlinks } from "../data"
 
 const NavbarOverLay = () => {
     return (
-        <nav className="fixed inset-0 flex items-center justify-center -z-10 md:hidden">
+        <nav className="fixed inset-0 flex items-center justify-center -z-10 md:hidden ">
             <ul className="flex flex-col text-center gap-7">
                 {
                     navlinks.map((link, index) => (

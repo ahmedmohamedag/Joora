@@ -12,8 +12,8 @@ const Navbar = () => {
     setIsOpen(false)
   }
   return (
-    <header className="bg-bg">
-      <nav className="container flex items-center justify-between py-5 mx-auto">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-bg md:static">
+      <nav className="container flex items-center justify-between py-5 mx-auto ">
         <Link to="/" className="flex items-center justify-center gap-3">
           <img src="logo.png" alt="Joora Logo" loading="lazy" />
           <h2 className="text-3xl text-main">جورا</h2>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
         </div>
 
-        <div className="flex px-4 md:hidden cursor-pointer">
+        <div className="flex px-4 cursor-pointer md:hidden">
 
           {
             !isOpen ?
