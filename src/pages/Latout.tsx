@@ -7,7 +7,7 @@ const RoutLatout = () => {
   return (
     <Fragment>
       <Navbar />
-      <div className="container mx-auto mt-32">
+      <div className="container py-8 mx-auto">
         <Outlet />
       </div>
       <Footer />

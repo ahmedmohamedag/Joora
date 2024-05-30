@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {},
     colors: {
+      "transparent":"transparent",
       "bg": "#F6F2FD",
       "main": "#1746A2",
       "accessary": "#FFC436",

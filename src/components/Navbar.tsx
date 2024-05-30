@@ -12,11 +12,11 @@ const Navbar = () => {
     setIsOpen(false)
   }
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-bg md:static">
+    <header className="sticky top-0 left-0 right-0 z-50 bg-bg md:static">
       <nav className="container flex items-center justify-between py-5 mx-auto ">
         <Link to="/" className="flex items-center justify-center gap-3">
           <img src="logo.png" alt="Joora Logo" loading="lazy" />
-          <h2 className="text-3xl text-main">جورا</h2>
+          <h2 className="text-3xl font-semibold text-main">جورا</h2>
           <span className="text-xl text-accessary">جايد</span>
         </Link>
         <ul className="hidden lg:gap-8 md:flex md:gap-6">
